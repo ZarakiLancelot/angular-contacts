@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    // flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media all and (max-width: 800px) {
+    .flex-container {
+        justify-content: space-around;
+    }
+}
+
+.flex-items {
+    width: 200px;
+    height: 150px;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 150px;
+    margin-top: 5px;
+    text-align: center;
+}
